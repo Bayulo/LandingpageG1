@@ -1,0 +1,168 @@
+html{
+    margin: 0;
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color:rgb(31, 103, 139) ;
+}
+.background{
+    background-color: rgb(31, 103, 139);
+    margin: 0 auto;
+    width: 90%;
+    padding: 5mm 20mm;
+    padding-bottom: 0mm;
+    margin-bottom: -10mm;
+    text-align: center;
+    height: 150%;
+}
+.container{
+    background-color: white;
+    height: 75%;
+    width: 95%;
+    border-radius: 3mm;
+    text-align: center;
+    padding: 5mm 15mm;
+    margin: 0 -15mm;
+    display: inline-block;
+}
+.main_div_1{
+    background-color: black;
+    color: white;
+    margin: 5mm 5mm;
+    border-radius: 5mm;
+    padding: 3mm 3mm;
+    text-align: center;
+    height: 7mm;
+}
+.j{
+    display: inline-block;
+    color: rgb(3, 159, 3);
+    float: left;
+    font-size: 7mm;
+    padding: 0mm 2mm;
+}
+.travel{
+    display: inline-block;
+    float: left;
+    margin-top: 1mm;
+}
+.menu{
+    display: inline-block;
+    float: right;
+    margin-top: 1mm;
+}
+.button{
+    border-radius: 2mm;
+    background-color: rgb(3, 159, 3);
+    border:1mm;
+    border-color: black;
+    font-weight: 100;
+    color: white;
+    width: 15mm;
+    height: 5mm;
+    margin-top: 0mm;
+}
+.main_div_2{
+    display: inline-block;
+    height: 80%;
+    margin: 5mm 5mm;
+    border-radius: 5mm;
+    padding: 5mm 5mm;
+    background-image:url(img/chris-abney-ctKUE5hqW-s-unsplash.jpg);
+    background-size: cover;
+    width: 92%;
+}
+.lakes{
+    display: inline-block;
+    float: right;
+    border-radius: 5mm;
+    margin: 0 2mm;
+    width: 40%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+    align-items: center;
+}
+.tours_foot{
+    display: inline-block;
+    float: left;
+    width: 140mm;
+    text-align: left;
+}
+.tours{
+    color: white;
+    width: 80mm;
+    font-size: 30mm;
+    font-weight: 700;
+}
+.foot{
+    margin-top: 100mm;
+    color:rgb(12, 12, 12);
+}
+#list_1{
+    display: inline-block;
+    padding: 0 0mm;
+    padding-right: 5mm;
+    font-size: 5mm;
+    font-weight: 600;
+}
+#list_2{
+    display: inline-block;
+    padding: 0 5mm;
+    font-size: 5mm;
+    font-weight: 600;
+}
+#list_3{
+    display: inline-block;
+    padding: 0 5mm;
+    font-size: 5mm;
+    font-weight: 600;
+}
+#upcoming{
+    display: block;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    margin: 0 5mm;
+    padding: 5mm 0mm;
+    font-size: 1.5vw;
+}
+#main{
+    display: block;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    margin: 0 5mm;
+    padding: 0 0mm;
+    font-size: 10mm;
+    
+}
+#column{
+    display: block;
+    color: white;
+    margin: 0 5mm;
+    font-size: 1.25vw;
+    text-align: justify;
+    column-count: 2;
+    column-width: 20mm;
+    word-spacing: 1mm;
+}
+#date{
+    color:white;
+    display: block;
+    margin: 4mm 5mm;
+    text-align: left;
+    font-size: 1.5vw;
+}
+#readmore{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 5mm;
+    width: 70%;
+    height: 10mm;
+    margin-top: 30mm;
+    border:none;
+}
