@@ -1,0 +1,151 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: aqua;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100%;
+    margin: 0;
+}
+.background{
+    height: 150%;
+    margin: 0 auto;
+    background-image: url(img/istockphoto-1187219147-1024x1024-UVmb6UvuL-transformed.jpeg);
+    background-size: cover;
+    width: device-width;
+    opacity: 0.7;
+    position: relative;
+}
+.main{
+    position: absolute;
+    top: 12%;
+    right: 50%;
+    left: 2%;
+    bottom: 50%;
+    width: 96%;
+    height: 130%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/istockphoto-1187219147-1024x1024-UVmb6UvuL-transformed.jpeg);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    border-radius: 5mm;
+    border: 1mm solid white;
+    text-align: center;
+}
+.heading{
+    margin: 5mm 5mm;
+    color: white;
+}
+.heading_items{
+    display: inline-block;
+    margin: 0 2mm;
+    height: 10mm;
+    padding-top: 0mm;
+    float: left;
+    font-size: 10mm;
+    font-family: serif;
+}
+.heading_items_right{
+    display: inline-block;
+    margin: 0 2mm;
+}
+button{
+    border-radius: 5mm;
+    width: 25mm;
+    height: 10mm;
+    background-color: rgb(7, 147, 7);
+    border: none;
+    color: white;
+}
+.right{
+    display: inline-block;
+    margin: 0 2mm;
+    float: right;
+}
+.left{
+    display: inline-block;
+    margin: 0 2mm;
+    float: left;
+}
+.discover{
+    text-align: center;
+    height: 20%;
+    color: white;
+    text-shadow: 1mm 1mm 5mm black;
+    font-size: 15mm;
+    font-weight: 600;
+    margin-top: 18%;
+}
+.white_space{
+    display: inline-block;
+    border: solid;
+    width: 99.9999999%;
+    background-color: rgb(170, 231, 237);
+    height: 20.4%;
+    margin-top: 0%;
+    margin-bottom: 0;
+    border-radius: 0mm 0mm 5mm 5mm;
+    border-top:none;
+    border-left: white;
+    border-right:  white;
+    border-bottom: white;
+    position: relative;
+    top: -6%;
+    left: 0%;
+    border-bottom: ;
+}
+.all_icons{
+    display: inline-block;
+    margin-top: 12%;
+    height: 20%;
+    width: 50%;
+}
+.icons{
+    display: inline-block;
+    border: solid white;
+    float: left;
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+    height: 30%;
+    border-radius: 5mm 5mm 0 0;
+    margin: 0 2%;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: -4%;
+    margin-right: 5%;
+}
+.search_menu{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+#sear{
+    border-radius: 5mm;
+    width: 70%;
+    border: solid slategray;
+    height: 8mm;
+    float: left;
+}
+.search_backgound{
+    background-color: white;
+    border: solid white;
+    width: 55%;
+    margin-left: 0;
+    display: inline-block;
+    height: 60%;
+    border-radius: 5mm;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    top: -35%;
+    left: 23%;
+}
+#Where{
+    float: left;
+    margin-left: 3%;
+}
+#icon_text{
+    display: inline-block;
+    margin-left: 1%;
+    float: right;
+}
